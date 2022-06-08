@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+}
+
+header {
+    background-color: #CF2B2B;
+    height: 92px;
+    
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header> div {
+    margin-left: 21px;
+}
+
+header h1 {
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+header h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+section {
+    margin-top: 92px;
+    padding-top: 31px;
+    padding-left: 19px;
+    margin-bottom: 92px;
+    padding-bottom: 16px;
+}
+
+
+.wrapper h2 {
+    font-family: 'Righteous', sans-serif;
+    color: #333333;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+    margin-bottom: 17px;
+}
+
+.wrapper .cards {
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+.wrapper .card {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper .card>* {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.card img {
+    margin-top: 18px;
+}
+
+.card h3 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 4px;
+}
+
+.card h4 {
+    color: #A6A6A6;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.5px;
+}
+
+.card p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+
+.wrapper + .wrapper {
+    margin-top: 27px;
+}
+
+footer {
+    width: 100vw;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer button {
+    background: #CBCBCB;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    border: none;
+}
+
+button p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: center;
+    color: #FFFFFF;
+}

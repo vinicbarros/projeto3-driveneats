@@ -180,9 +180,35 @@
         </div>
 
     </section>
+    <div class="blur hidden">
+        <div class="checklist">
+            <div class="cont">
+                <h4>Confirme seu pedido</h4>
+                <div>
+                    <h5 class="fodname">pedido</h5>
+                    <p class="fodval">valor</p>
+                </div>
+                <div>
+                    <h5 class="drinkname">pedido</h5>
+                    <p class="drinkval">valor</p>
+                </div>
+                <div>
+                    <h5 class="desname">pedido</h5>
+                    <p class="desval">valor</p>
+                </div>
+                <div>
+                    <h5>TOTAL</h5>
+                    <p  class="totval">valor</p>
+                </div>
+
+                <button onclick="order()" ><p>Tudo certo, pode pedir</p></button>
+                <h6 onclick="cancel()">Cancelar</h6>
+            </div>
+        </div>
+    </div>
 
     <footer>
-        <button disabled class="off " onclick="order()"><p class="buttomText">Selecione os 3 itens <br>
+        <button disabled class="off " onclick="openWindow()"><p class="buttomText">Selecione os 3 itens <br>
             para fechar o pedido</p></button>
     </footer>
 

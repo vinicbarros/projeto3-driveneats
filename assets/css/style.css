@@ -255,3 +255,7 @@ button p {
     font-weight: bold;
     margin-top: 23px;
 }
+
+.cont .totnam, .totval {
+    font-weight: bold !important;
+}

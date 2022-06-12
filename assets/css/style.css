@@ -172,3 +172,86 @@ button p {
 .on {
     background: #32B72F !important;
 }
+
+.blur {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(238, 238, 238, 0.8);
+}
+
+.hidden {
+    display: none;
+}
+
+.cont {
+    font-family: 'Roboto', sans-serif;;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.cont div {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    margin-bottom: 15px;
+}
+
+.cont h4 {
+    margin-top: 21px;
+    margin-bottom: 28px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.checklist {
+    width: 94vw;
+    height: 353px;
+    border-radius: 9px;
+    background-color: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: calc(50% - 353px/2 - 0.5px);
+    left: 12px;
+    z-index: 100;
+}
+
+.checklist .cont div h5,p {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.cont button {
+    margin-top: 10px;
+    width: 329px;
+    height: 52px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cont button p {
+    color: #50D074;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cont h6 {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 23px;
+}

@@ -1,7 +1,7 @@
 <div align="center"><img style = "width:100%;"src="https://i.imgur.com/nGNlztj.gif"></img></div>
 <hr>
 <h2 align=center>Driven Eats - Food Delivery Front-End App</h2>
-<h3 align=center>Web development Project</h3>
+<h3 align=center>Front-End Web App Project</h3>
 <hr>
 <div align=center>
 <h4>This is a delivery food app built with HTML CSS and JavaScript. This was the first project using Javascript!</h4>
